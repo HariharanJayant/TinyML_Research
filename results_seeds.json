@@ -1,0 +1,87 @@
+[
+  {
+    "seed": 42,
+    "epochs_trained": 86,
+    "params": 161,
+    "keras_test_acc": 0.9399999976158142,
+    "acc": {
+      "baseline": 0.94,
+      "int8": 0.94,
+      "pruned": 0.938
+    },
+    "sparsity": {
+      "dense_3": 0.5,
+      "dense_4": 0.5,
+      "dense_5": 0.5
+    },
+    "nonzero_params": 85
+  },
+  {
+    "seed": 43,
+    "epochs_trained": 100,
+    "params": 161,
+    "keras_test_acc": 0.9380000233650208,
+    "acc": {
+      "baseline": 0.938,
+      "int8": 0.934,
+      "pruned": 0.938
+    },
+    "sparsity": {
+      "dense_6": 0.5,
+      "dense_7": 0.5,
+      "dense_8": 0.5
+    },
+    "nonzero_params": 86
+  },
+  {
+    "seed": 44,
+    "epochs_trained": 69,
+    "params": 161,
+    "keras_test_acc": 0.9319999814033508,
+    "acc": {
+      "baseline": 0.932,
+      "int8": 0.934,
+      "pruned": 0.878
+    },
+    "sparsity": {
+      "dense_9": 0.5,
+      "dense_10": 0.5,
+      "dense_11": 0.5
+    },
+    "nonzero_params": 86
+  },
+  {
+    "seed": 45,
+    "epochs_trained": 64,
+    "params": 161,
+    "keras_test_acc": 0.9319999814033508,
+    "acc": {
+      "baseline": 0.932,
+      "int8": 0.93,
+      "pruned": 0.932
+    },
+    "sparsity": {
+      "dense_12": 0.5,
+      "dense_13": 0.5,
+      "dense_14": 0.5
+    },
+    "nonzero_params": 85
+  },
+  {
+    "seed": 46,
+    "epochs_trained": 100,
+    "params": 161,
+    "keras_test_acc": 0.9340000152587891,
+    "acc": {
+      "baseline": 0.934,
+      "int8": 0.934,
+      "pruned": 0.924
+    },
+    "sparsity": {
+      "dense_15": 0.5,
+      "dense_16": 0.5,
+      "dense_17": 0.5
+    },
+    "nonzero_params": 88
+  }
+]
