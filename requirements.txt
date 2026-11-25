@@ -1,6 +1,0 @@
-tensorflow==2.21.0
-tf_keras==2.21.0
-tensorflow-model-optimization==0.8.1
-tflite-micro
-scikit-learn==1.9.1
-numpy
