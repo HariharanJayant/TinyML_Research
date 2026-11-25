@@ -1,0 +1,82 @@
+{
+  "host": {
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+    "python": "3.13.18",
+    "tensorflow": "2.21.0",
+    "tfmot": "0.8.1"
+  },
+  "data": {
+    "n": 5000,
+    "noise_sd": {
+      "temperature": 1.5,
+      "humidity": 3.0,
+      "soil_moisture": 3.0
+    },
+    "split": [
+      4000,
+      500,
+      500
+    ],
+    "frac_open": 0.35659998655319214
+  },
+  "nn": {
+    "seed": 42,
+    "epochs_trained": 86,
+    "params": 161,
+    "keras_test_acc": 0.9399999976158142,
+    "acc": {
+      "baseline": 0.94,
+      "int8": 0.94,
+      "pruned": 0.938,
+      "pruned_unstripped": 0.938
+    },
+    "sparsity": {
+      "dense": 0.5,
+      "dense_1": 0.5,
+      "dense_2": 0.5
+    },
+    "nonzero_params": 85,
+    "size_bytes": {
+      "baseline": 2724,
+      "int8": 3136,
+      "pruned": 2724,
+      "pruned_unstripped": 7276
+    },
+    "gzip_bytes": {
+      "baseline": 1520,
+      "int8": 1375,
+      "pruned": 1300,
+      "pruned_unstripped": 2402
+    },
+    "arena_bytes": {
+      "baseline": 1592,
+      "int8": 1776,
+      "pruned": 1592
+    },
+    "latency_ns": {
+      "baseline": 750.5494,
+      "int8": 1403.7689,
+      "pruned": 754.7048
+    }
+  },
+  "classical": {
+    "decision_tree": {
+      "max_depth": 4,
+      "nodes": 29,
+      "leaves": 15,
+      "test_acc_sklearn": 0.946,
+      "test_acc_c": 0.946,
+      "model_data_bytes": 317,
+      "latency_ns": 273.0631
+    },
+    "logistic_regression": {
+      "C": 0.01,
+      "params": 4,
+      "test_acc_sklearn": 0.938,
+      "test_acc_c": 0.938,
+      "model_data_bytes": 16,
+      "latency_ns": 268.0611
+    },
+    "ctypes_call_overhead_ns": 266.6719
+  }
+}
